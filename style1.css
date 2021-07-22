@@ -1,0 +1,196 @@
+
+
+      #outer-wrap-accordation .mainNav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-bottom: 1px solid  #c9c9c9!important;
+
+      }
+      #outer-wrap-accordation .mainNav ul li {
+        border-top: 1px solid  #c9c9c9;
+        font-size: 18px;
+
+
+      }
+      #outer-wrap-accordation .mainNav ul li a {
+        color: #000066;;
+        display: block;
+        font-size:20px;
+        line-height: normal;
+        padding:25px 20px;
+        text-decoration:none;
+      }
+
+        /* Second Level */
+        #outer-wrap-accordation .mainNav ul ul {
+          border-bottom: none;
+          background: white;
+        }
+        #outer-wrap-accordation .mainNav ul ul li {
+          border-top: 1px solid  #c9c9c9;
+          background: white;
+        }
+        #outer-wrap-accordation .mainNav ul ul li a {
+          color: #000066;
+          display: block;
+          font-size: 1em;
+          line-height: normal;
+          background: white;
+        }
+
+            /* Third Level */
+        #outer-wrap-accordation .mainNav ul ul ul {
+          border-top:1px solid #c9c9c9;
+        }
+        #outer-wrap-accordation .mainNav ul ul ul li {
+          border:none;
+        }
+        #outer-wrap-accordation .mainNav ul ul ul li a {
+          padding-left:3.5em; 
+          padding-top:0.25em; 
+          padding-bottom:0.25em;
+        }
+        #outer-wrap-accordation .mainNav .title{
+           background: #fafbfc;
+        }
+        /* Accordion Button */
+      #outer-wrap-accordation ul li.has-subnav .accordion-btn {
+        color:#fff; 
+        background:none;
+      }
+       #outer-wrap-accordation li{
+        font-size: 20px;
+        color: #530066;
+        font-weight: bold;
+       }
+         #outer-wrap-accordation .sub-item a{
+          color: #530066;
+          padding-left: 30px!important;
+          font-size: 17px;
+          border-bottom: 1px solid  #c9c9c9;
+          line-height: 0px!important;
+          font-weight: 500;
+
+         }
+        #outer-wrap-accordation .sub-item .cherecterestics{
+          color: #25a7a0;
+        }
+         #outer-wrap-accordation .sub-item .prognosis{
+          color: #00007f;
+         }
+         #outer-wrap-accordation .sub-item .alina{
+          color: #25a7a0;
+          text-decoration: underline;
+         }
+
+
+
+
+
+ #outer-wrap-accordation .fa-plus,.fa-minus{
+  color:white;
+  font-size: 20px;
+  border: 2px solid #25a7a0;
+  border-radius: 50%;
+  padding: 8px 10px;
+  background:#25a7a0;
+  
+ }
+
+ #outer-wrap-accordation .fa-plus,.fa-minus:nth-child(2):hover{
+  color:#25a7a0;
+  font-size: 20px;
+  border: 2px solid #25a7a0;
+  border-radius: 50%;
+  padding: 8px 10px;
+  background: white;
+ }
+
+#outer-wrap-accordation ul > li,
+ol > li {
+  margin-left:0px!important; }
+
+
+
+ #outer-wrap-accordation li{
+ margin-bottom: 0rem!important;
+}
+ #outer-wrap-accordation li a{
+  display: inline-block;
+ }
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  background:#25a7a0;
+}
+.topnav  img{
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  left: 25px;
+  top: 0px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 35px 50px;
+  outline: none;
+  font-weight: bold;
+  
+}
+.topnav a:hover{
+color: white;
+}
+.topnav a:active, .topnav a:focus {
+ box-shadow: none;
+}
+  .topnav .aa{
+    margin-left: 100px;
+  }
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav .aa{
+    margin-left: 0px;
+  }
+}
+
+.sidebar a.activeslide {
+  background-color: #25a7a0!important;
+  color: white!important;
+}
